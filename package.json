@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve",
+    "start": "ts-node --esm src/main.ts",
     "build": "nx build"
   },
   "private": true,
