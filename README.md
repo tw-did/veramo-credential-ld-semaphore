@@ -4,7 +4,7 @@
 
 `veramo-credential-ld-semaphore` aims to facilitate a comprehensive review of the integration between [Semaphore](https://semaphore.pse.dev/), a zero-knowledge proof framework, and W3C-related standards such as Decentralized Identifiers (DIDs) and Verifiable Credentials. Initially developed as part of the [tw-did](https://github.com/tw-did/tw-did) project, this repository extracts the code related to Semaphore and Veramo integration for a more focused evaluation.
 
-This project leverages the [Veramo](https://veramo.io/) package, specifically [@veramo/credential-ld](https://www.npmjs.com/package/@veramo/credential-ld), to expand the JSON-LD format with custom encryption algorithms. Our integration focuses on two main classes: `SemaphoreSignature2023` and `SemaphoreKeyManagementSystem`.
+This project leverages the [Veramo](https://veramo.io/) package, specifically [@veramo/credential-ld](https://www.npmjs.com/package/@veramo/credential-ld), to expand the JSON-LD format with custom algorithms. Our integration focuses on two main classes: `SemaphoreSignature2023` and `SemaphoreKeyManagementSystem`.
 
 ## Background
 
