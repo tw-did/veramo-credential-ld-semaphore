@@ -7,9 +7,23 @@
     "build": "nx build"
   },
   "private": true,
+  "type": "module",
   "dependencies": {
+    "@semaphore-protocol/group": "^3.11.1",
+    "@semaphore-protocol/identity": "^3.11.1",
+    "@semaphore-protocol/proof": "^3.11.1",
+    "@veramo/core": "^5.4.1",
+    "@veramo/credential-ld": "^5.4.1",
+    "@veramo/credential-w3c": "^5.4.1",
+    "@veramo/data-store-json": "^5.4.1",
+    "@veramo/did-manager": "^5.4.1",
+    "@veramo/did-provider-web": "^5.4.1",
+    "@veramo/did-resolver": "^5.4.1",
+    "@veramo/key-manager": "^5.4.1",
+    "@veramo/utils": "^5.4.1",
     "axios": "^1.0.0",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "web-did-resolver": "^2.0.27"
   },
   "devDependencies": {
     "@nx/esbuild": "16.8.1",
